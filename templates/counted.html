@@ -1,0 +1,13 @@
+<h1>Word Count!!</h1>
+<h3>You entered {{no_words}} words</h3>
+<h3>Input text</h3>
+{{input}}<br>
+<h3>Input words</h3><br>
+{%for word, value in counted%}
+    {{word}}-->{{value}}
+    <br>
+{% endfor %}<br>
+<a href="http://127.0.0.1:8000/">Do another text?</a>
+<br><br>
+<a href="http://127.0.0.1:8000/about/">Know about this site</a>
+
